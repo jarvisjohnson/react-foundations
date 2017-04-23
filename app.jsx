@@ -1,18 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Hello world</title>
-  <!-- Script tags including React -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js"></script>
-  <script src="https://npmcdn.com/babel-core@5.8.38/browser.min.js"></script>
-</head>
-<body>
-  <div id="app"></div>
-    <script type="text/babel">
-
-
       // Wrapper
       var App = React.createClass({
         render: function() {
@@ -80,14 +65,3 @@
           )
         }
       }
-      
-      var mount = document.querySelector('#app');
-      ReactDOM.render(<App />, mount);    
-  
-
-
-
-
-  </script>
-</body>
-</html>
